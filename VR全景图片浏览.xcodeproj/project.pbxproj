@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF9588A71E6BF53500E65CD1 /* dibai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9588A51E6BF53500E65CD1 /* dibai.jpg */; };
+		DF9588A81E6BF53500E65CD1 /* huoshan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9588A61E6BF53500E65CD1 /* huoshan.jpg */; };
+		DFE45EB01E6BD5B4009C6F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE45EAF1E6BD5B4009C6F53 /* main.m */; };
+		DFE45EB31E6BD5B4009C6F53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE45EB21E6BD5B4009C6F53 /* AppDelegate.m */; };
+		DFE45EB91E6BD5B4009C6F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE45EB71E6BD5B4009C6F53 /* Main.storyboard */; };
+		DFE45EBB1E6BD5B4009C6F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE45EBA1E6BD5B4009C6F53 /* Assets.xcassets */; };
+		DFE45EBE1E6BD5B4009C6F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE45EBC1E6BD5B4009C6F53 /* LaunchScreen.storyboard */; };
+		DFE45EC71E6BD61A009C6F53 /* Sphere.c in Sources */ = {isa = PBXBuildFile; fileRef = DFE45EC61E6BD61A009C6F53 /* Sphere.c */; };
+		DFE45ECC1E6BD699009C6F53 /* CLPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE45ECB1E6BD699009C6F53 /* CLPhotoView.m */; };
+		DFE45ECF1E6BECEC009C6F53 /* CLPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE45ECE1E6BECEC009C6F53 /* CLPhotoViewController.m */; };
+		DFE45ED11E6BEE94009C6F53 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFE45ED01E6BEE94009C6F53 /* snow.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF9588A51E6BF53500E65CD1 /* dibai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dibai.jpg; sourceTree = "<group>"; };
+		DF9588A61E6BF53500E65CD1 /* huoshan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huoshan.jpg; sourceTree = "<group>"; };
+		DF9588AF1E6D3D1C00E65CD1 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DFE45EAB1E6BD5B4009C6F53 /* VR全景图片浏览.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VR全景图片浏览.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE45EAF1E6BD5B4009C6F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFE45EB11E6BD5B4009C6F53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFE45EB21E6BD5B4009C6F53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFE45EB81E6BD5B4009C6F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE45EBA1E6BD5B4009C6F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE45EBD1E6BD5B4009C6F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE45EBF1E6BD5B4009C6F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE45EC61E6BD61A009C6F53 /* Sphere.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sphere.c; sourceTree = "<group>"; };
+		DFE45EC91E6BD63A009C6F53 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		DFE45ECA1E6BD699009C6F53 /* CLPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotoView.h; sourceTree = "<group>"; };
+		DFE45ECB1E6BD699009C6F53 /* CLPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPhotoView.m; sourceTree = "<group>"; };
+		DFE45ECD1E6BECEC009C6F53 /* CLPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotoViewController.h; sourceTree = "<group>"; };
+		DFE45ECE1E6BECEC009C6F53 /* CLPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPhotoViewController.m; sourceTree = "<group>"; };
+		DFE45ED01E6BEE94009C6F53 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE45EA81E6BD5B4009C6F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE45EA21E6BD5B4009C6F53 = {
+			isa = PBXGroup;
+			children = (
+				DFE45EAD1E6BD5B4009C6F53 /* VR全景图片浏览 */,
+				DFE45EAC1E6BD5B4009C6F53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE45EAC1E6BD5B4009C6F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE45EAB1E6BD5B4009C6F53 /* VR全景图片浏览.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE45EAD1E6BD5B4009C6F53 /* VR全景图片浏览 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE45EC51E6BD611009C6F53 /* VRPhoto */,
+				DFE45EB11E6BD5B4009C6F53 /* AppDelegate.h */,
+				DFE45EB21E6BD5B4009C6F53 /* AppDelegate.m */,
+				DFE45EB71E6BD5B4009C6F53 /* Main.storyboard */,
+				DFE45EBA1E6BD5B4009C6F53 /* Assets.xcassets */,
+				DFE45EBC1E6BD5B4009C6F53 /* LaunchScreen.storyboard */,
+				DFE45EBF1E6BD5B4009C6F53 /* Info.plist */,
+				DFE45EAE1E6BD5B4009C6F53 /* Supporting Files */,
+			);
+			path = "VR全景图片浏览";
+			sourceTree = "<group>";
+		};
+		DFE45EAE1E6BD5B4009C6F53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE45EAF1E6BD5B4009C6F53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE45EC51E6BD611009C6F53 /* VRPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				DFE45ED01E6BEE94009C6F53 /* snow.jpg */,
+				DF9588A51E6BF53500E65CD1 /* dibai.jpg */,
+				DF9588A61E6BF53500E65CD1 /* huoshan.jpg */,
+				DFE45EC61E6BD61A009C6F53 /* Sphere.c */,
+				DF9588AF1E6D3D1C00E65CD1 /* Bridging-Header.h */,
+				DFE45EC91E6BD63A009C6F53 /* Sphere.h */,
+				DFE45ECA1E6BD699009C6F53 /* CLPhotoView.h */,
+				DFE45ECB1E6BD699009C6F53 /* CLPhotoView.m */,
+				DFE45ECD1E6BECEC009C6F53 /* CLPhotoViewController.h */,
+				DFE45ECE1E6BECEC009C6F53 /* CLPhotoViewController.m */,
+			);
+			path = VRPhoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE45EAA1E6BD5B4009C6F53 /* VR全景图片浏览 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE45EC21E6BD5B4009C6F53 /* Build configuration list for PBXNativeTarget "VR全景图片浏览" */;
+			buildPhases = (
+				DFE45EA71E6BD5B4009C6F53 /* Sources */,
+				DFE45EA81E6BD5B4009C6F53 /* Frameworks */,
+				DFE45EA91E6BD5B4009C6F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VR全景图片浏览";
+			productName = "VR全景图片浏览";
+			productReference = DFE45EAB1E6BD5B4009C6F53 /* VR全景图片浏览.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE45EA31E6BD5B4009C6F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cleven;
+				TargetAttributes = {
+					DFE45EAA1E6BD5B4009C6F53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HQ4PZ36DEN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFE45EA61E6BD5B4009C6F53 /* Build configuration list for PBXProject "VR全景图片浏览" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE45EA21E6BD5B4009C6F53;
+			productRefGroup = DFE45EAC1E6BD5B4009C6F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE45EAA1E6BD5B4009C6F53 /* VR全景图片浏览 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE45EA91E6BD5B4009C6F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE45EBE1E6BD5B4009C6F53 /* LaunchScreen.storyboard in Resources */,
+				DFE45EBB1E6BD5B4009C6F53 /* Assets.xcassets in Resources */,
+				DF9588A71E6BF53500E65CD1 /* dibai.jpg in Resources */,
+				DFE45ED11E6BEE94009C6F53 /* snow.jpg in Resources */,
+				DF9588A81E6BF53500E65CD1 /* huoshan.jpg in Resources */,
+				DFE45EB91E6BD5B4009C6F53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE45EA71E6BD5B4009C6F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE45ECF1E6BECEC009C6F53 /* CLPhotoViewController.m in Sources */,
+				DFE45EC71E6BD61A009C6F53 /* Sphere.c in Sources */,
+				DFE45ECC1E6BD699009C6F53 /* CLPhotoView.m in Sources */,
+				DFE45EB31E6BD5B4009C6F53 /* AppDelegate.m in Sources */,
+				DFE45EB01E6BD5B4009C6F53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFE45EB71E6BD5B4009C6F53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE45EB81E6BD5B4009C6F53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE45EBC1E6BD5B4009C6F53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE45EBD1E6BD5B4009C6F53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE45EC01E6BD5B4009C6F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFE45EC11E6BD5B4009C6F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE45EC31E6BD5B4009C6F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQ4PZ36DEN;
+				INFOPLIST_FILE = "VR全景图片浏览/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.VR------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFE45EC41E6BD5B4009C6F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQ4PZ36DEN;
+				INFOPLIST_FILE = "VR全景图片浏览/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.VR------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE45EA61E6BD5B4009C6F53 /* Build configuration list for PBXProject "VR全景图片浏览" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE45EC01E6BD5B4009C6F53 /* Debug */,
+				DFE45EC11E6BD5B4009C6F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE45EC21E6BD5B4009C6F53 /* Build configuration list for PBXNativeTarget "VR全景图片浏览" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE45EC31E6BD5B4009C6F53 /* Debug */,
+				DFE45EC41E6BD5B4009C6F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE45EA31E6BD5B4009C6F53 /* Project object */;
+}
