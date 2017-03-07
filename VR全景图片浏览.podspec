@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "VR全景图片浏览"
   s.version      = "0.0.1"
-  s.summary      = "A short description of VR全景图片浏览."
+  s.summary      = "VR全景图片浏览."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
+  #s.description  = <<-DESC
                    DESC
 
   s.homepage     = "https://github.com/cleven1/VRPanorama"
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "VR全景图片浏览", "VR全景图片浏览/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
