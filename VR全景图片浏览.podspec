@@ -19,51 +19,19 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "VR全景图片浏览."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-                   DESC
-
   s.homepage     = "https://github.com/cleven1/VRPanorama"
-
 
   s.license      = "MIT"
 
-
   s.author             = { "yongqiang.zhao@camdora.me" => "yongqiang.zhao@camdora.me" }
-
-
 
   s.source       = { :git => "https://github.com/cleven1/VRPanorama.git", :tag => "#{s.version}" }
   s.platform     = :ios, '7.0'
 
-
   s.source_files  = "VR全景图片浏览", "VR全景图片浏览/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
-
+  s.requires_arc = true
 
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-    s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
