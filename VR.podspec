@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author             = { "yongqiang.zhao@camdora.me" => "yongqiang.zhao@camdora.me" }
 
   s.source       = { :git => "https://github.com/cleven1/VRPanorama.git", :tag => "#{s.version}" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
 
   s.source_files  = "VR全景图片浏览", "VR全景图片浏览/**/*.{h,m}"
 
