@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CLPhotoViewController.h"
+//#import "CLPhotoViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +20,9 @@
     
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     
-    CLPhotoViewController *vc = [[CLPhotoViewController alloc]init];
-    self.window.rootViewController = vc;
-    [self.window makeKeyAndVisible];
+//    CLPhotoViewController *vc = [[CLPhotoViewController alloc]init];
+//    self.window.rootViewController = vc;
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }
