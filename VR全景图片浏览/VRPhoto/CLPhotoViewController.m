@@ -10,7 +10,7 @@
 #import "CLPhotoView.h"
 
 @interface CLPhotoViewController ()
-//@property (nonatomic,strong)CLPhotoView *photoView;
+@property (nonatomic,strong)CLPhotoView *photoView;
 @end
 
 @implementation CLPhotoViewController
@@ -19,10 +19,10 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-//    _photoView = [[CLPhotoView alloc]initWithFrame:self.view.bounds];
-//    _photoView.photoURL = [[NSBundle mainBundle] pathForResource:@"dibai" ofType:@"jpg"];
-//
-//    [self.view addSubview:_photoView];
+    _photoView = [[CLPhotoView alloc]initWithFrame:self.view.bounds];
+    _photoView.photoURL = [[NSBundle mainBundle] pathForResource:@"dibai" ofType:@"jpg"];
+
+    [self.view addSubview:_photoView];
     
 
     
