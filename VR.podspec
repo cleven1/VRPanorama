@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/cleven1/VRPanorama.git", :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
 
-  s.source_files  = VR全景图片浏览/*"
+  s.source_files  = "VR全景图片浏览/*"
 
   s.requires_arc = true
 

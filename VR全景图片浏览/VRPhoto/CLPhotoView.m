@@ -180,7 +180,10 @@
     glBufferData((GL_ARRAY_BUFFER),(numVertices) * 2 * sizeof(GLfloat), texCoord, (GL_DYNAMIC_DRAW));
     glEnableVertexAttribArray(GLKVertexAttribTexCoord0);
     glVertexAttribPointer(GLKVertexAttribTexCoord0, 2, GL_FLOAT, GL_FALSE, sizeof(GLfloat) * 2, nil);
-    
+    free(vertices);
+    free(texCoord);
+    free(indices);
+
 }
 
 - (void)startDeviceMotion
